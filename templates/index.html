@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Главная страница
+{% endblock %}
+
+{% block body %}
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+   <main class="px-3">
+    <h1>Здесь я изучаю Flask.</h1>
+    <p class="lead">На этом сайте, вы сможете найти краткую информацию обо мне, а также перейти по ссылке на мой <a href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%B3%D0%B0%D1%88%D0%B5%D0%BD%D0%BA%D0%BE-804869180/" class="text-white">Linkedin</a></p>
+    <p class="lead">
+      <a href="/create-article" class="btn btn-lg btn-secondary fw-bold border-white bg-black">Создать статью</a>
+    </p>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>Ссылка на мой: <a href="https://www.linkedin.com/in/%D0%B4%D0%BC%D0%B8%D1%82%D1%80%D0%B8%D0%B9-%D0%B3%D0%B0%D1%88%D0%B5%D0%BD%D0%BA%D0%BE-804869180/" class="text-white">Linkedin</a></p>
+  </footer>
+</div>
+{% endblock %}
